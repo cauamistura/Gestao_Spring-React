@@ -1,64 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
-
-*{
-    font-family: 'Roboto', sans-serif ;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body, html{
-    color: white;
-    background-color: black;
-}
-
-header{
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
-    height: 220px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-a, a:hover, a:visited {
-    color: unset;
-    text-decoration: none;
-}
-
-.logo-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logo-container img {
-    width: 235px;
-}
-
-.logo-container h1 {
-    margin-top: 15px;
-    font-size: 24px;
-}
-
-.logo-container p {
-    font-size: 14px;
-    font-weight: 300;
-}
-
-.container-main{
-   width: 100%; 
-   max-width: 900px;
-   margin: 0 auto;
-}
 
 .card{
     background-color: #283142;
     border-radius: 10px;
     padding: 30px 10px;
-}
-
-#sales {
-    padding: 40px 10px;
 }
 
 #title-sales {
@@ -70,6 +14,11 @@ a, a:hover, a:visited {
 #input-control-container{
     margin-bottom: 16px;
     max-width: 300px;
+}
+
+.red-button-container{
+    display: flex;
+    justify-content: center;
 }
 
 .input-control{
@@ -114,27 +63,6 @@ a, a:hover, a:visited {
 
 #sales-table tbody tr:nth-child(odd){
     background-color: #242C3B;
-}
-
-.red-button-container{
-    display: flex;
-    justify-content: center;
-}
-
-.red-button{
-    height: 45px;
-    width: 45px;
-    background: rgba(255, 107, 114, 0.1);
-    border: 1px solid #FF6B72;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.red-button img{
-    width: 19px;
 }
 
 .show576{
